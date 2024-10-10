@@ -1,6 +1,6 @@
 # How Deep is Love in LLMs' Hearts? Exploring Semantic Size in Human-like Cognition
  
-![overview](F:\papers\LLM_abstract\github\figure\overview.jpeg)
+![overview](https://github.com/Zoeyyao27/LLM-Semantic-Size-Understanding/blob/main/figure/overview.jpeg)
 
 Understanding semantic size is a key aspect of human cognition, measuring the perceived magnitude of a concept or object.  This paper explores the capability of LLMs to comprehend semantic size in both abstract (e.g. love, freedom) and concrete terms (e.g. tree, galaxy), examining whether LLMs' understanding aligns with human cognition. In this paper, we progressively explore how LLMs perceive the semantic size of language from three perspectives: (1) External Exploration: Understanding Semantic Size through Metaphors, (2) Internal Exploration: Probing How LLMs Encode Semantic Size, and (3) Real-world Exploration: Investigating the Impact of Semantic Size in Attention-grabbing Headlines. An overview of the three computational studies is presented in Figure above.
 
@@ -62,7 +62,7 @@ bash run_webshopping_api.sh
 
 Plot tree map
 
-<img src="F:\papers\LLM_abstract\github\figure\treemap.png" alt="treemap" style="zoom: 25%;" />
+<img src="https://github.com/Zoeyyao27/LLM-Semantic-Size-Understanding/blob/main/figure/treemap.png" alt="treemap" style="zoom: 50%;" />
 
 ```
 python draw_treemap.py
