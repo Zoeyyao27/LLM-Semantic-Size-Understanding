@@ -61,9 +61,37 @@ bash run_webshopping_api.sh
 ## Figure Generation
 
 Plot tree map
-
-<img src="https://github.com/Zoeyyao27/LLM-Semantic-Size-Understanding/blob/main/figure/treemap.png" alt="treemap" style="zoom: 50%;" />
-
 ```
 python draw_treemap.py
+```
+<img src="https://github.com/Zoeyyao27/LLM-Semantic-Size-Understanding/blob/main/figure/treemap.png" alt="treemap" style="zoom: 50%;" />
+
+##Acknowledgement
+Part of our data are from 
+```
+## Semantic Metaphor
+@article{yao2022can,
+  title={What can size tell us about abstract conceptual processing?},
+  author={Yao, Bo and Taylor, Jack E and Sereno, Sara C},
+  journal={Journal of Memory and Language},
+  volume={127},
+  pages={104369},
+  year={2022},
+  publisher={Elsevier}
+}
+
+##Web Shopping
+@inproceedings{yao2022webshop,
+  bibtex_show = {true},
+  title = {WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents},
+  author = {Yao, Shunyu and Chen, Howard and Yang, John and Narasimhan, Karthik},
+  booktitle = {ArXiv},
+  year = {preprint},
+  html = {https://arxiv.org/abs/2207.01206},
+  tag = {NLP}
+}
+
+##Plot Tools
+https://www.chiplot.online/
+
 ```
