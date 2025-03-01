@@ -21,7 +21,7 @@ def read_csv_to_dict(filename):
             data_dict[word] = attributes
     return data_dict
 
-path_for_scores_for_words = "translation_tool/construct_mode_dataset/scores_for_words.csv"
+path_for_scores_for_words = "data/scores_for_words.csv"
 
 data_dict = read_csv_to_dict(path_for_scores_for_words)
 
