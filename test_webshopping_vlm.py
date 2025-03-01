@@ -45,8 +45,8 @@ if __name__ == "__main__":
     parser.add_argument("--data_path", type=str, default="web_shopping/final_web_dataset/webshop_dataset/screenshots")
     parser.add_argument("--label_path", type=str, default="web_shopping/final_web_dataset/webshop_dataset/total_label.json")
     parser.add_argument("--output_path", type=str, default="output_webshopping")
-    parser.add_argument("--if_no_figure", action="store_true")
-    parser.add_argument("--if_text", action="store_true")
+    parser.add_argument("--if_no_figure", action="store_true",help="if not use image")
+    parser.add_argument("--if_text", action="store_true",help="if add product title to the question")
     parser.add_argument("--random_seed", type=int, default=0)
 
     args = parser.parse_args()

@@ -15,9 +15,6 @@ from openai import OpenAI
 client = OpenAI(api_key="your_api_key")
 
 
-
-
-
 def label_and_shuffle(items,size_vary):
 
     if size_vary:

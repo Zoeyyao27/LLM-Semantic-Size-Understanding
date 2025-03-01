@@ -11,7 +11,7 @@ import pandas as pd
 import time
 import tqdm
 
-dashscope.api_key = "sk-16d4b7d6edb14abd8223330bbb8dc2cf"
+dashscope.api_key = "YOUR_DASHSCOPE_API_KEY"
 
 
 def label_and_shuffle(items,size_vary):
