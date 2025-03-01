@@ -69,6 +69,10 @@ python draw_treemap.py
 ## 🤯Result analysis
 If you want to count the average of the chosen keys probability for better understanding the result, you can run the following command.
 ```
+##For abstract2concrete
+python count_freq.py
+
+##For web shopping
 cd web_shopping
 python web_shopping/count_webshopping.py
 ```

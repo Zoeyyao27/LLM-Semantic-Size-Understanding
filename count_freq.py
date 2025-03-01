@@ -1,3 +1,6 @@
+'''
+count the average of the chosen keys probability
+'''
 import ast
 import csv
 
@@ -57,19 +60,13 @@ for dataset_type in ["","_extend","_prompt_size","_extend_prompt_size"]:
     with open(output_path, mode='w', newline='') as file:
         writer = csv.writer(file)
         
-        # 写入标题头
         headers = ['Model', 'Iteration', 'Size', 'Type', '0', '1', '2', 'num_fail']
         writer.writerow(headers)
         
-        # 遍历模型
         for model in final_result:
-            # 遍历匹配类型
             for match_type in ['match', 'vary']:
-                # 遍历大和小
                 for size in ['big', 'small']:
-                    # 遍历每次迭代
                     for i, freq_list in enumerate(final_result[model][match_type][size]):
-                        # 将频率列表转换为可以写入CSV的格式
                         freq_values = list(freq_list)
                         row = [model, i + 1, size.capitalize(), match_type] + freq_values
                         writer.writerow(row)
