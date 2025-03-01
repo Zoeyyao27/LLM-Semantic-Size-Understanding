@@ -66,6 +66,13 @@ python draw_treemap.py
 ```
 <img src="https://github.com/Zoeyyao27/LLM-Semantic-Size-Understanding/blob/main/figure/treemap.png" alt="treemap" style="zoom: 50%;" />
 
+## 🤯Result analysis
+If you want to count the average of the chosen keys probability for better understanding the result, you can run the following command.
+```
+cd web_shopping
+python web_shopping/count_webshopping.py
+```
+
 ## 💐 Acknowledgement
 Part of our data are from 
 ```

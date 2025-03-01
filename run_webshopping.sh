@@ -67,25 +67,3 @@ for SEED in "${SEED_list[@]}"; do
         CUDA_VISIBLE_DEVICES=1 python web_shopping/test_webshopping_vlm.py --model_path "$model_name" --random_seed $SEED --if_text --if_no_figure
     done
 done
-
-# ##text only api model
-# SEED_list=(0 1 2 3 4)
-# model_list=(
-#     # "gpt-4o"
-#     # "gpt-4o-mini"
-#     # "gpt-3.5-turbo"
-#     "qwen-vl-plus"
-#     "qwen-vl-max"
-# )
-# for SEED in "${SEED_list[@]}"; do
-#     echo "Running seed: $SEED"
-#     for model_name in "${model_list[@]}"; do
-#         echo "Running model: $model_name"
-#         CUDA_VISIBLE_DEVICES=1 python web_shopping/test_webshopping_vlm.py --model_path "$model_name" --random_seed $SEED --if_text --if_no_figure
-#     done
-# done
-
-
-###############################
-# CUDA_VISIBLE_DEVICES=1 python web_shopping/test_webshopping_vlm.py --model_path "gpt-4o"
-# CUDA_VISIBLE_DEVICES=1 python web_shopping/test_webshopping_vlm.py --random_seed 1277 --if_text

@@ -12,7 +12,7 @@ from time import sleep
 
 from http import HTTPStatus
 import dashscope
-dashscope.api_key = "sk-16d4b7d6edb14abd8223330bbb8dc2cf"
+dashscope.api_key = "YOUR_DASHSCOPE_API_KEY"
 
 def simple_multimodal_conversation_call():
     """Simple single round multimodal conversation call.

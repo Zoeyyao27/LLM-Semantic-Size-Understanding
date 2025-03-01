@@ -1,3 +1,6 @@
+'''
+count the average of the chosen keys probability
+'''
 import os
 import json
 import csv
@@ -13,7 +16,6 @@ for if_figure in [True,False]:
         if not if_figure and not if_text:
             continue
         dir_path=os.path.join(file_path,f"fig_{if_figure}_text_{if_text}")
-        #遍历文件夹下所有的model name的文件夹
         final_result={}
         for model_name in os.listdir(dir_path):
             model_path=os.path.join(dir_path,model_name)
